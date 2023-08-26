@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Event Update Page</title>
+</head>
+<body>
+    <div class="center-container">
+        <div class="event-form">
+            <h1>Event 1</h1>
+            <p>Available Seats: <span id="available-seats">100</span></p>
+            <form action="#" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+                
+                <label for="seats">Number of Seats:</label>
+                <input type="number" id="seats" name="seats" required>
+                
+                <label for="attendees">Number of Attendees:</label>
+                <input type="number" id="attendees" name="attendees" required>
+                
+                
+                
+                <div class="buttons">
+                    <button type="submit" class="submit-button">Submit</button>
+                    <button type="button" class="cancel-button">Cancel</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
